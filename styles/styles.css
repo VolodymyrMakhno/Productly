@@ -7,7 +7,7 @@
 body {
   font-size: 16px;
   color: #544837;
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-weight: 500;
   line-height: 28px;
 }
@@ -222,7 +222,8 @@ body {
 .wrapper-item__list__item::before {
   content: url(../img/Logoforlist.svg);
   position: absolute;
-  left: 0px;
+  left: 17px;
+  top: 20px
 }
 
 .footer {
@@ -256,6 +257,9 @@ body {
   width: 325px;
   height: 48px;
   padding: 10px 125px 10px 15px;
+  border: 1px solid #BCD0E5;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .just-cont-end {
